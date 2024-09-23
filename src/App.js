@@ -130,7 +130,9 @@ const App = () => {
                                     <div class="carousel-caption d-none d-md-block">
                                         <h5>Neapolitan Piza</h5>
                                         <p>
-                                            If you are looking for a traditional Italian pizza, the Neapolitan is best option
+                                            If you are looking for a traditional
+                                            Italian pizza, the Neapolitan is
+                                            best option
                                         </p>
                                     </div>
                                 </div>
@@ -195,7 +197,13 @@ const App = () => {
                         <div className="row">
                             <h2> Our Menu </h2>
                             <div className="col-md-3 mb-2">
-                                <div className="card">
+                                <div className="card position-relative">
+                                    <span
+                                        class="badge text-bg-warning position-absolute"
+                                        style={{ width: 100, padding: 5 }}
+                                    >
+                                        Sale
+                                    </span>
                                     <img
                                         src="./assets/menu1.jpg"
                                         className="card-img-top"
@@ -205,7 +213,12 @@ const App = () => {
                                         <h5 className="card-title">
                                             Margherita Pizza
                                         </h5>
-                                        <p className="card-text"><del>$40.00</del> <span style={{ color:"#FFD700"}}>$24.00</span></p>
+                                        <p className="card-text">
+                                            <del>$40.00</del>{" "}
+                                            <span style={{ color: "#FFD700" }}>
+                                                $24.00
+                                            </span>
+                                        </p>
                                         <a
                                             href="#"
                                             class="form-control btn btn-dark"
@@ -237,7 +250,13 @@ const App = () => {
                                 </div>
                             </div>
                             <div className="col-md-3 mb-2">
-                                <div className="card">
+                                <div className="card position-relative">
+                                    <span
+                                        class="badge text-bg-warning position-absolute"
+                                        style={{ width: 100, padding: 5 }}
+                                    >
+                                        News
+                                    </span>
                                     <img
                                         src="./assets/menu3.jpg"
                                         className="card-img-top"
@@ -258,15 +277,28 @@ const App = () => {
                                 </div>
                             </div>
                             <div className="col-md-3 mb-2">
-                                <div className="card">
+                                <div className="card position-relative">
+                                    <span
+                                        class="badge text-bg-warning position-absolute"
+                                        style={{ width: 100, padding: 5 }}
+                                    >
+                                        Sale
+                                    </span>
                                     <img
                                         src="./assets/menu4.jpg"
                                         className="card-img-top"
                                         alt="..."
                                     />
                                     <div class="card-body">
-                                        <h5 className="card-title">Pesto Pizza</h5>
-                                        <p className="card-text"><del>$50.00</del> <span style={{ color:"#FFD700"}}>$30.00</span></p>
+                                        <h5 className="card-title">
+                                            Pesto Pizza
+                                        </h5>
+                                        <p className="card-text">
+                                            <del>$50.00</del>{" "}
+                                            <span style={{ color: "#FFD700" }}>
+                                                $30.00
+                                            </span>
+                                        </p>
                                         <a
                                             href="#"
                                             class="form-control btn btn-dark"
